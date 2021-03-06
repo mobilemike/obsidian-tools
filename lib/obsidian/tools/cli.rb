@@ -19,7 +19,7 @@ module Obsidian
       end
       map %w(--version -v) => :version
 
-      desc 'cleanup', 'Command description...'
+      desc 'cleanup', 'Cleanup markdown files'
       method_option :help, aliases: '-h', type: :boolean,
                            desc: 'Display usage information'
       def cleanup(*)
